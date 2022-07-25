@@ -12,10 +12,12 @@ file_to_save = os.path.join("analysis", "election_analysis.txt")
 with open(file_to_load) as election_data:
     file_reader = csv.reader(election_data)
 
-    # Read and print the header row.
+    # Read the header row.
     headers = next(file_reader)
-    print(headers)
 
+    # Print each row in the CSV file.
+    for row in file_reader:
+        print(row)
 
 # 1. Count the total number of votes/records in the file
 # 2. Print list of unique values in the candidates list
