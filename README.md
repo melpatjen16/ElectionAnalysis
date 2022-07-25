@@ -17,7 +17,8 @@ The CBE employee request the following:
 
 ## Summary of Results
 
-Election Results
+###Election Results
+
 -------------------------
 Total Votes: 369,711
 -------------------------
@@ -29,10 +30,16 @@ Raymon Anthony Doane: 3.1% (11,606)
 
 -------------------------
 Winner: Diana DeGette
+
 Winning Vote Count: 272,892
+
 Winning Percentage: 73.8%
 -------------------------
 
 ## Challenege Overview
 
 This was not a close election, but the most rewarding part was Tom working with us to complete this analysis and provide a quick audit that can be used in the future. 
+
+## Challenge Summary
+
+Overall, the script proves useful as long as the information in provided in a readable form. 
